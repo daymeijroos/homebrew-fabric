@@ -1,4 +1,4 @@
-class FabricAi < Formula
+class Cli < Formula
   desc "fabric is an open-source framework for augmenting humans using AI. It provides a modular framework for solving specific problems using a crowdsourced set of AI prompts that can be used anywhere."
   homepage "https://github.com/danielmiessler/fabric"
   url "https://github.com/danielmiessler/fabric/archive/refs/tags/v1.4.157.tar.gz"
