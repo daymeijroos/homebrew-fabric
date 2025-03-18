@@ -1,5 +1,5 @@
 # Description
-Homebrew Tap for https://github.com/danielmiessler/fabric
+Homebrew Tap for https://github.com/danielmiessler/fabric and is currently on v1.4.157. 
 
 # Installing
 ```bash
