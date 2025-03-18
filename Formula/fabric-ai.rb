@@ -9,13 +9,7 @@ class FabricAi < Formula
   depends_on "go" => :build
 
   def install
-    system "./configure", "--disable-silent-rules", *std_configure_args
-    ENV["GOPATH"] = buildpath
-    path = buildpath/"src/github.com/danielmiessler/fabric"
-    system "go", "get", "-u", "github.com/danielmiessler/fabric"
-    cd path do
-      system "go", "build", "-o", "#{bin}/fabric"
-    end
+    system "go", "build", "-o", "#{bin}/fabric"
   end
 
   test do
